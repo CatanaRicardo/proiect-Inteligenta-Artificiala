@@ -4,5 +4,5 @@ Se va implementa un sistem de inferență predicativă prin raționament înaint
 
 și „un triunghi echilateral este isoscel”). Fiecare afirmație va fi tratată ca un predicat, iar prin aplicarea regulilor de inferență se vor genera consecințele logice necesare
 
-până la obținerea concluziei. Aplicația va afișa premisele și pașii principali ai raționamentului pentru fiecare demonstrație.
+până la obținerea concluziei. Aplicația va afișa premisele și pașii principali ai raționamentului pentru fiecare demonstrație
 
