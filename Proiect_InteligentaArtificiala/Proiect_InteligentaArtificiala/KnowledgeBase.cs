@@ -1,12 +1,15 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿class KnowledgeBase{
+    public List<Predicate> Facts { get; } = new List<Predicate>();
+    public List<Rule> Rules { get; } = new List<Rule>();
 
-namespace Proiect_InteligentaArtificiala
-{
-    class KnowledgeBase
-    {
+    public void AddFact(Predicate fact){
+        if (!Facts.Any(f => f.ToString() == fact.ToString()))
+            Facts.Add(fact);
+    }
+
+    public void PrintFacts(){
+        Console.WriteLine("Fapte cunoscute:");
+        foreach (var f in Facts)
+            Console.WriteLine(" - " + f);
     }
 }

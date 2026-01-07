@@ -1,5 +1,4 @@
-﻿class Rule
-{
+﻿class Rule{
     public List<Predicate> Premises { get; }
     public Predicate Conclusion { get; }
 

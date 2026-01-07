@@ -1,6 +1,5 @@
-﻿
-// Reprezinta un predicat logic, care poate contine variabile (?X, ?Y)
-class Predicate{
+﻿class Predicate{  
+    // Reprezinta un predicat logic, care poate contine variabile (?X, ?Y)
     public string Name { get; }
     public List<string> Arguments { get; }
 
